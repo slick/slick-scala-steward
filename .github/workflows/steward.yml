@@ -11,7 +11,7 @@ jobs:
     name: DIY Steward
     steps:
       - uses: sbt/setup-sbt@v1
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
           
       - name: Generate token
         id: generate-token
